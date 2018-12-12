@@ -1,0 +1,15 @@
+﻿<Application
+    x:Class="Ejer12.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejer12">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="global" TargetType="Button">
+                <Setter Property="Background" Value="Blue" />
+                <Setter Property="FontSize" Value="60" />
+              
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
